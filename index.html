@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <title>LeadGen</title>
+  </head>
+  <body>
+    <header>
+      <nav class="flex-justify-align-between">
+        <div class="left">
+          <p class="logo-text"><span>Lead</span>Gen</p>
+        </div>
+        <div class="right">
+          <ul class="flex-justify-align-center" id="menu">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <span class="fa-solid fa-circle fa-2xs"></span>
+              <a href="#programs">Programs</a>
+            </li>
+
+            <li>
+              <span class="fa-solid fa-circle fa-2xs"></span>
+              <a href="#classes">Classes</a>
+            </li>
+
+            <li>
+              <span class="fa-solid fa-circle fa-2xs"></span>
+              <a href="#facility">Facility</a>
+            </li>
+
+            <li>
+              <span class="fa-solid fa-circle fa-2xs"></span>
+              <a href="#trainers">Trainers</a>
+            </li>
+
+            <li>
+              <span class="fa-solid fa-circle fa-2xs"></span>
+              <a href="#pricing">Pricing</a>
+            </li>
+
+            <li>
+              <span class="fa-solid fa-circle fa-2xs"></span>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mobile-bar" onclick="toggleMobileMenu();">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/images/slide1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/slide2.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/slide3.jpg" alt="" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <div class="header-text flex-justify-center-col">
+          <h1>
+            Crossfit <br />
+            Exercises On <br />
+            Every Day.
+          </h1>
+          <p class="text-medium">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+            <br />
+            voluptatibus facilis corporis quas, temporibus sed.
+          </p>
+          <button class="btn btn-white">
+            Read more <i class="fa-solid fa-chevron-right fa-2xs"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ABOUT SECTION -->
+
+      <section class="section-about" id="about">
+        <div class="container">
+          <div class="about flex-justify-align-center">
+            <div class="about-left">
+              <h2>About the gym fitness</h2>
+            </div>
+            <div class="about-right flex-justify-center-col">
+              <div>
+                <p class="subtitle-blue">The place to get in shape.</p>
+                <p class="text-xsmall">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                  est ipsam vitae, enim fugiat magnam deserunt! Quae eos dolorem
+                  commodi?
+                </p>
+              </div>
+              <hr />
+              <div>
+                <p class="subtitle-blue">We work hard and play hard.</p>
+                <p class="text-xsmall">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
+                  nesciunt totam molestias porro tenetur vitae dignissimos
+                  commodi aliquid saepe ad.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROGRAMS SECTION  -->
+      <section class="section-programs" id="programs">
+        <div class="container">
+          <div class="programs">
+            <div class="programs-top">
+              <h2>
+                Our Fitness <br />
+                programs
+              </h2>
+              <p class="text-small">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam atque similique earum quo veniam explicabo porro minima
+                voluptatem? Asperiores repellat alias ipsa, placeat cumque
+                illum.
+              </p>
+            </div>
+            <div class="programs-bottom">
+              <div>
+                <img src="/images/Fitness1.png" alt="" />
+                <p class="image-text">weight lifting</p>
+              </div>
+              <div>
+                <img src="/images/Fitness2.png" alt="" />
+                <p class="image-text">indoor cycling</p>
+              </div>
+              <div>
+                <img src="/images/Fitness3.png" alt="" />
+                <p class="image-text">body bulding</p>
+              </div>
+              <div>
+                <img src="/images/Fitness4.png" alt="" />
+                <p class="image-text">fitness classes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROMO SECTION -->
+
+      <section>
+        <div class="promo">
+          <div class="promo-left">
+            <img src="/images/Advert1.png" alt="" />
+          </div>
+          <div class="promo-right">
+            <p class="promo-title">
+              The place to <br />
+              get in shape
+            </p>
+            <p class="promo-subtitle">
+              for fitness and workout. We are <br />
+              available for 24/7 for your fitness
+            </p>
+            <button class="btn btn-black">Meet trainers</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- CLASSES SECTION -->
+
+      <section class="sections-classes" id="classes">
+        <div class="container">
+          <div class="classes">
+            <div class="classes-top">
+              <h2>The fitness classes</h2>
+              <p class="text-xsmall">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
+                repudiandae ullam voluptates veritatis eligendi iure doloribus
+                mollitia facere sunt, corporis iste voluptate, reiciendis
+                necessitatibus laboriosam!
+              </p>
+            </div>
+            <div class="classes-bottom">
+              <div class="classes-block">
+                <div class="classes-left">
+                  <img src="/images/Cardio.png" alt="" />
+                </div>
+                <div class="classes-right">
+                  <p class="classes-title">cardio classes</p>
+                  <p class="text-xsmall">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis aspernatur quis vel reiciendis harum, natus eum illo
+                    consequatur eveniet esse.
+                  </p>
+                  <p class="text-time">12:00 am - 14:00 am</p>
+                </div>
+              </div>
+
+              <div class="classes-block">
+                <div class="classes-left">
+                  <img src="/images/Sculpture.png" alt="" />
+                </div>
+                <div class="classes-right">
+                  <p class="classes-title">sculpturing classes</p>
+                  <p class="text-xsmall">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolores, mollitia molestiae. Accusamus ab enim quaerat
+                    architecto eveniet temporibus quis quia.
+                  </p>
+                  <p class="text-time">06:00 am - 09:30 am</p>
+                </div>
+              </div>
+
+              <div class="classes-block">
+                <div class="classes-left">
+                  <img src="/images/FitnessClasses.png" alt="" />
+                </div>
+                <div class="classes-right">
+                  <p class="classes-title">Fitness Classes</p>
+                  <p class="text-xsmall">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsa magnam aspernatur repellat pariatur labore, aliquid
+                    libero eum suscipit. Tempore, iste?
+                  </p>
+                  <p class="text-time">08:00 am - 10:00 am</p>
+                </div>
+              </div>
+
+              <div class="classes-block">
+                <div class="classes-left">
+                  <img src="/images/Weight.png" alt="" />
+                </div>
+                <div class="classes-right">
+                  <p class="classes-title">Weight reducing</p>
+                  <p class="text-xsmall">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione facilis saepe exercitationem culpa omnis architecto
+                    et nisi debitis, eligendi itaque!
+                  </p>
+                  <p class="text-time">07:00 am - 11:00 am</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- OFFER SECTION  -->
+
+      <section class="section-offer">
+        <div class="container">
+          <div class="offer">
+            <p class="text-large">
+              winter special offer <br />
+              get 30% on all programmes
+            </p>
+            <p class="text-medium">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              debitis nisi necessitatibus autem, nobis illum quod sapiente
+              dignissimos quas ab.
+            </p>
+            <button class="btn btn-blue">
+              Join Programme <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT 2 SECTION  -->
+      <section class="section-offer-two" id="facility">
+        <div class="container">
+          <div class="about-two">
+            <div class="about-two-top">
+              <h2>
+                About the <br />
+                facility
+              </h2>
+              <p class="text-xsmall">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint
+                nemo omnis necessitatibus voluptatibus expedita nulla,
+                architecto doloribus maiores, consequatur atque praesentium,
+                quia minus illum sit magni saepe quasi cupiditate repudiandae.
+              </p>
+            </div>
+            <div class="about-two-bottom">
+              <!-- block one -->
+
+              <div class="about-two-block">
+                <img src="/images/Spa.png" alt="" />
+                <div>
+                  <p class="title-text-small text-white">Spa & massage</p>
+                  <p class="text-xsmall">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aspernatur non est quo corporis iste quia!
+                  </p>
+                </div>
+              </div>
+
+              <!-- block two -->
+
+              <div class="about-two-block">
+                <img src="/images/Cafe.png" alt="" />
+                <div>
+                  <p class="title-text-small text-white">Cafe & resturant</p>
+                  <p class="text-xsmall">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quidem repudiandae quis illum asperiores.
+                  </p>
+                </div>
+              </div>
+
+              <!-- block three -->
+
+              <div class="about-two-block">
+                <img src="/images/Outdoor.png" alt="" />
+                <div>
+                  <p class="title-text-small text-white">Outdoor Sports</p>
+                  <p class="text-xsmall">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam nesciunt corporis ipsam provident.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BANNER SECTION -->
+
+      <section>
+        <div class="banner">
+          <div>
+            <i class="fa-solid fa-chart-line fa-lg"></i>
+            <p class="banner-number">0</p>
+            <p class="banner-text">members</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-heart fa-lg"></i>
+            <p class="banner-number">0</p>
+            <p class="banner-text">trainers</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-book-open fa-lg"></i>
+            <p class="banner-number">0</p>
+            <p class="banner-text">classes</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-headphones-simple fa-lg"></i>
+            <p class="banner-number">0</p>
+            <p class="banner-text">programmes</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TRAINERS SECTION -->
+
+      <section class="section-trainers" id="trainers">
+        <div class="container">
+          <div class="trainers">
+            <div class="trainers-top">
+              <h2>
+                Meet our <br />
+                trainers
+              </h2>
+              <p class="text-xsmall">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                libero optio cum maiores minus quo tempore dolorum iure delectus
+                hic ut necessitatibus, perspiciatis dolore porro explicabo. In,
+                nostrum?
+              </p>
+            </div>
+            <div class="trainers-bottom">
+              <div class="trainers-block">
+                <img src="/images/Instructor1.png" alt="" />
+                <p class="trainers-text-blue">Sommer christian</p>
+                <p class="trainers-text-white">founder and ceo</p>
+                <hr />
+                <div class="trainers-icons">
+                  <i class="fa-brands fa-xs fa-facebook-f"></i>
+                  <i class="fa-brands fa-xs fa-twitter"></i>
+                  <i class="fa-brands fa-xs fa-linkedin-in"></i>
+                  <i class="fa-brands fa-xs fa-pinterest-p"></i>
+                </div>
+              </div>
+
+              <div class="trainers-block">
+                <img src="/images/Instructor2.png" alt="" />
+                <p class="trainers-text-blue">paula scrivens</p>
+                <p class="trainers-text-white">women's fitness</p>
+                <hr />
+                <div class="trainers-icons">
+                  <i class="fa-brands fa-xs fa-facebook-f"></i>
+                  <i class="fa-brands fa-xs fa-twitter"></i>
+                  <i class="fa-brands fa-xs fa-linkedin-in"></i>
+                  <i class="fa-brands fa-xs fa-pinterest-p"></i>
+                </div>
+              </div>
+
+              <div class="trainers-block">
+                <img src="/images/Instructor3.png" alt="" />
+                <p class="trainers-text-blue">Jeremy girard</p>
+                <p class="trainers-text-white">men's fitness</p>
+                <hr />
+                <div class="trainers-icons">
+                  <i class="fa-brands fa-xs fa-facebook-f"></i>
+                  <i class="fa-brands fa-xs fa-twitter"></i>
+                  <i class="fa-brands fa-xs fa-linkedin-in"></i>
+                  <i class="fa-brands fa-xs fa-pinterest-p"></i>
+                </div>
+              </div>
+
+              <div class="trainers-block">
+                <img src="/images/Instructor4.png" alt="" />
+                <p class="trainers-text-blue">shoko mugikura</p>
+                <p class="trainers-text-white">women's bodybuilding</p>
+                <hr />
+                <div class="trainers-icons">
+                  <i class="fa-brands fa-xs fa-facebook-f"></i>
+                  <i class="fa-brands fa-xs fa-twitter"></i>
+                  <i class="fa-brands fa-xs fa-linkedin-in"></i>
+                  <i class="fa-brands fa-xs fa-pinterest-p"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROMO TWO SECTION  -->
+
+      <section class="section-promo-two">
+        <div class="promo-two">
+          <div class="promo-two-left">
+            <p class="text-large text-blue">
+              The place to get <br />
+              your body in shape
+            </p>
+            <div class="promo-two-block">
+              <div class="promo-two-block-left">
+                <div>
+                  <p class="promo-two-title">
+                    <span>01.</span>Running to Happiness
+                  </p>
+                  <p class="text-xsmall">
+                    Lorem ipsum dolor sit amet consectetur <br />
+                    adipisicing elit. Similique fugiat
+                  </p>
+                </div>
+                <div>
+                  <p class="promo-two-title">
+                    <span>03.</span>Sport Happiness Fantasy
+                  </p>
+                  <p class="text-xsmall">
+                    Lorem ipsum dolor sit amet consectetur, <br />
+                    adipisicing elit. Dicta provident quas sequi.
+                  </p>
+                </div>
+              </div>
+              <div class="promo-two-block-right">
+                <div>
+                  <p class="promo-two-title">
+                    <span>02.</span>Feminist Over Power
+                  </p>
+                  <p class="text-xsmall">
+                    Lorem ipsum dolor sit amet consectetur <br />
+                    adipisicing elit. Eligendi veritatis laudantium.
+                  </p>
+                </div>
+                <div>
+                  <p class="promo-two-title">
+                    <span>04.</span>Power Overwhelming
+                  </p>
+                  <p class="text-xsmall">
+                    Lorem ipsum dolor sit amet consectetur <br />
+                    adipisicing elit. Officia a in neque!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="promo-two-right">
+            <img src="/images/Advert2.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICES SECTION -->
+
+      <section class="section-prices" id="pricing">
+        <div class="container">
+          <div class="prices">
+            <div class="prices-top">
+              <h2>
+                Effective <br />
+                membership
+              </h2>
+              <p class="text-xsmall">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                exercitationem assumenda accusantium quod in sed quisquam
+                quibusdam fugit, maxime dolor fuga vel at voluptates iste
+                ratione quam ab!
+              </p>
+            </div>
+            <div class="prices-bottom">
+              <div>
+                <p class="prices-title">Personal</p>
+                <p class="prices-number">$95</p>
+                <p class="prices-small-subtitle">one month</p>
+                <ul>
+                  <li>
+                    <p class="prices-small-text">Swimming pool not included</p>
+                    <hr />
+                  </li>
+
+                  <li>
+                    <p class="prices-small-text">Canteen optional</p>
+                    <hr />
+                  </li>
+
+                  <li>
+                    <p class="prices-small-text">Towels not included</p>
+                    <hr />
+                  </li>
+                  <li>
+                    <p class="prices-small-text">Water not included</p>
+                    <hr />
+                  </li>
+                  <li>
+                    <p class="prices-small-text">
+                      Personal trainer not included
+                    </p>
+                  </li>
+                </ul>
+
+                <button class="btn btn-blue">Choose plan</button>
+              </div>
+
+              <div>
+                <p class="prices-title">personal</p>
+                <p class="prices-number">$499</p>
+                <p class="prices-small-subtitle">six month</p>
+                <ul>
+                  <li>
+                    <p class="prices-small-text">Swimming pool - $10</p>
+                    <hr />
+                  </li>
+                  <li>
+                    <p class="prices-small-text">Canteen optional</p>
+                    <hr />
+                  </li>
+                  <li>
+                    <p class="prices-small-text">Towels for FREE</p>
+                    <hr />
+                  </li>
+                  <li>
+                    <p class="prices-small-text">Water - $5</p>
+                    <hr />
+                  </li>
+                  <li>
+                    <p class="prices-small-text">Personal trainer optional</p>
+                  </li>
+                </ul>
+
+                <button class="btn btn-blue">Choose Plan</button>
+              </div>
+
+              <div>
+                <p class="prices-title">personal</p>
+                <p class="prices-number">$999</p>
+                <p class="prices-small-subtitle">per year</p>
+                <ul>
+                  <li>
+                    <p class="prices-small-text">Swimming pool for FREE</p>
+                    <hr />
+                  </li>
+                  <li>
+                    <p class="prices-small-text">Canteen included</p>
+                    <hr />
+                  </li>
+                  <li>
+                    <p class="prices-small-text">Towels for FREE</p>
+                    <hr />
+                  </li>
+                  <li>
+                    <p class="prices-small-text">Water for FREE</p>
+                    <hr />
+                  </li>
+                  <li>
+                    <p class="prices-small-text">Personal trainer included</p>
+                  </li>
+                </ul>
+
+                <button class="btn btn-blue">Choose plan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TRIAL SECTION  -->
+
+      <section class="section-trial">
+        <div class="trial">
+          <h3 class="text-white">1 day free trial</h3>
+          <p class="text-small">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            <br />
+            accusamus? Iste perspiciatis ad nulla deleniti obcaecati fugit, quod
+            <br />
+            numquam architecto eum explicabo facere voluptas distinctio.
+          </p>
+          <form>
+            <input type="text" placeholder="*Your Name" />
+            <input type="email" placeholder="*Your Email" />
+            <textarea cols="30" rows="5" placeholder="Your Message"></textarea>
+            <button class="btn btn-blue" type="submit">send message</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+
+      <section class="section-contact" id="contact">
+        <div class="container">
+          <div class="contact">
+            <div>
+              <i class="fa-solid fa-location-dot fa-xl"></i>
+              <p class="contact-title">Contact Address</p>
+              <p class="text-xsmall">
+                301 The Greenhouse Factory, <br />
+                London, E2 8DR
+              </p>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-mobile-screen fa-xl"></i>
+              <p class="contact-title">Call Us Today!</p>
+              <p class="text-xsmall">(M) +44(0) 123 456 7890</p>
+              <p class="text-xsmall">(O) +44(0) 123 456 7890</p>
+            </div>
+
+            <div>
+              <i class="fa-regular fa-envelope fa-xl"></i>
+              <p class="contact-title">Email</p>
+              <p class="text-xsmall">no-reply@domain.com</p>
+              <p class="text-xsmall">help@domain.com</p>
+            </div>
+
+            <div>
+              <i class="fa-regular fa-clock fa-xl"></i>
+              <p class="contact-title">Working Hours</p>
+              <p class="text-xsmall">Mon to Sat - 9AM to 11PM</p>
+              <p class="text-xsmall">Sunday 10AM to 6PM</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <hr />
+
+    <div class="container">
+      <footer>
+        <p class="logo-text"><span>Lead</span>Gen</p>
+
+        <p class="text-xsmall">&copy; 2023 LeadGen</p>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
